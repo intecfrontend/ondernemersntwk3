@@ -65,6 +65,22 @@ transition: ease 0.2s all;
 cursor: pointer;
 &:hover {box-shadow:rgba(99, 99, 99, 0) 2px 2px 2px 0px};
 `;
+const Ondernmgsselect = styled.select`
+display: flex;
+align-items: center;
+border-radius: 2px;
+font-size: 24px;
+font-weight: 400;
+padding: 2px 10px 0px 10px;
+height: 35px;
+width: 185px;
+border: none;
+transition: ease 0.2s all;
+background: rgba(	241,	242,	242, 1);
+cursor: pointer;
+/* z-index:999; */
+&:hover {box-shadow:rgba(99, 99, 99, 0) 2px 2px 2px 0px};
+`;
 const Label = styled.div`
 display: flex;
 align-items: center;
@@ -132,7 +148,14 @@ function bedankt() {
         <Ondernmgsno>
           <Label>Taalvoorkeur*</Label>
           <Ondernmgsinput>
+            <Ondernmgsselect>
+            <option value="NL">Nederlands</option>
+            <option value="FR">Français</option>
+            <option value="EN">English</option>
+            <option value="DE">Deutsch</option>
+            </Ondernmgsselect>
           </Ondernmgsinput>
+
           <Label2>Gebruikersnaam</Label2>
           <Ondernmgsinput>
           </Ondernmgsinput>
@@ -154,7 +177,7 @@ function bedankt() {
           <Ondernmgsinput>
           </Ondernmgsinput>
         </Ondernmgsno>
- 
+
         <BlackBtn>
           GA VERDER
         </BlackBtn>
