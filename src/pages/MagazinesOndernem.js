@@ -1,3 +1,4 @@
+import HeaderInputOnd from '../components/headerInputOnd';
 
 import HeaderInput from '../components/headerInput';
 import MagazinesCardsContainer from '../components/MagazineItems/Item-magazineCont'
@@ -8,7 +9,7 @@ function SearchPage() {
     <div className="App">
       <div className="ONntwk__main">
         <div className="ONntwk__mainVertical ">
-          <HeaderInput />
+          <HeaderInputOnd />
           <div className="ONntwk__sidecardeswrap">
             <MagazinesSideleft />
             <MagazinesCardsContainer />

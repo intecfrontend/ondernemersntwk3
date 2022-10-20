@@ -1,6 +1,6 @@
 import React from 'react'
 import "../App.css"
-import amuna from "../assets/magitems/amuna.jpg"
+import identity from "../assets/magitems/idbdigit.png"
 import digit from "../assets/magitems/digit.svg"
 import exit from "../assets/magitems/exit.svg"
 import savelogo from "../components/MagazineItems/magazines_assets/savelogo.svg"
@@ -43,10 +43,11 @@ object-fit: cover;
 border:black 1px solid;
 font-size:10px;
 border-radius: 50%
-`;const LogoOndXs = styled.img`
+`;
+const LogoOndXs = styled.img`
 width: 20px;
 height: 20px;
-border: white 10px solid;margin: 0px;
+border: white 2px solid;margin: 0px;
 object-fit: cover;
 font-size:10px;
 border-radius: 50%
@@ -70,8 +71,10 @@ function Headerright(props) {
         </div>
         <div className="ONntwk__bluecardbtn ONntwk__btncontaanmelden">
           <div className="ONntwk__bluecardbtn ONntwk__regularbtn">
-          Amuna V.
-          <LogoOndXs src={amuna} alt="fotoconsument" />
+
+            IdentityBuilding
+            <LogoOndXs src={identity} alt="fotoconsument" />
+
 
           </div>
         </div>
@@ -80,9 +83,9 @@ function Headerright(props) {
 
         <UitschuifConsu>
           <Iddiv>
-            <Fotoconsument src={amuna} alt="fotoconsument" />
-            <div> <strong>Amuna Vercruysse</strong><br />
-              am.vercruysse@idb.be</div>
+            <Fotoconsument src={identity} alt="fotoconsument" />
+            <div> <strong>IdentityBuilding</strong><br />
+              BE0718.600.051</div>
           </Iddiv>
           <Iddiv>
             <Logoconsument src={savelogo} alt="savelogo" />
@@ -91,7 +94,7 @@ function Headerright(props) {
           </Iddiv>
           <Iddiv>
             <Logoconsument src={digit} alt="digit" />
-            <div> Account beheren</div>
+            <div> Beheer mijn onderneming</div>
           </Iddiv>
           <Finaldiv>
             <Logoconsument src={exit} alt="exit" />
