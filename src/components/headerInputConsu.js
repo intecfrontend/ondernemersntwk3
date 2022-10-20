@@ -2,8 +2,7 @@ import React from 'react'
 import ONcatnetwerklogo from "../assets/ONcatnetwerk.svg"
 import ONnetwerklogo from "../assets/ONnetwerk.svg"
 import Input from "./inputfield"
-import  Headerright  from './headerright';
-
+import  HeaderrightConsu  from './headerrightConsu';
 
 export default function headerInput() {
   return (
@@ -15,7 +14,7 @@ export default function headerInput() {
           <Input placeholder={"Ternat"} linker={"magazines/"} ondertxt={""} />
         </div>
 
-        <Headerright/>
+        <HeaderrightConsu/>
       </div>
     </div >
   )

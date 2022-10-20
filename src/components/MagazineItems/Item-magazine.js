@@ -50,7 +50,7 @@ height: 13%;
   padding: 2px;
   left: 157px;
   border-radius: 3px;
-z-index:999;
+z-index:990;
 background: white;
 `;
 const Datetxt = styled.div`
