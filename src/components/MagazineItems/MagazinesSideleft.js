@@ -9,13 +9,13 @@ width: 20vw;
 min-width: 240px;
 
 height: calc(100vh - 40px);
-background: #f1f2f2;
+background: #ffffff;
 font-size: 14px;
 `;
 
 const Bluesidebar = styled.div`
 border-left: 13px #1394d2 solid;
-background: #bcbec0;
+background: #ededed;
 display: flex;
 align-items: center;
 padding-left: 20px;
@@ -23,8 +23,8 @@ width: 100%;
 height: 35px
 `;
 const Orangesidebar = styled.div`
-border-left: 13px #e87a1a solid;
-background: #bcbec0;
+border-left: 13px #fcb721 solid;
+background: #ededed;
 display: flex;
 align-items: center;
 padding-left: 20px;
@@ -33,7 +33,7 @@ height: 35px
 `;
 const Brownsidebar = styled.div`
 border-left: 13px #9e3d97 solid;
-background: #bcbec0;
+background: #ededed;
 display: flex;
 align-items: center;
 padding-left: 20px;
@@ -41,8 +41,8 @@ width: 100%;
 height: 35px
 `;
 const Nosidebar = styled.div`
-border-left: 13px #e6e7e8 solid;
-background: #e6e7e8;
+border-left: 13px #f6f6f6 solid;
+background: #f6f6f6;
 display: flex;
 align-items: center;
 padding-left: 20px;
@@ -84,7 +84,7 @@ export default function MagazinesSideleft() {
           </span> GA TERUG
         </div>
         <ADlogosetter>
-        <ADlogowrap src={ADlogo} alt="ADlogo" />
+          <ADlogowrap src={ADlogo} alt="ADlogo" />
         </ADlogosetter>
         <Logotxt>AD DELHAIZE TERNAT </Logotxt>
         <Onderlogotxt>3.700 VOLGERS</Onderlogotxt>
