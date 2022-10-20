@@ -44,7 +44,6 @@ display: flex;
 justify-content: center;
 font-weight: 600;
 height: 65px;
-background: gold;
 position: relative;
 margin: 5px 5px 5px 5px; 
 transition: ease 0.2s all;
@@ -59,8 +58,8 @@ font-size: 24px;
 font-weight: 400;
 padding: 2px 10px 0px 10px;
 height: 35px;
-width: 170px;
-margin: 10px;
+width: 175px;
+margin: 10px 5px 10px 5px;
 border:black solid 0.5px; 
 transition: ease 0.2s all;
 cursor: pointer;
@@ -90,7 +89,7 @@ font-weight: 400;
 color:   #1394d2;
 position: absolute;
 top: 0px;
-left: 215px;
+left: 205px;
 z-index: 999;
 background: rgba(	241,	242,	242, 1);
 transition: ease 0.2s all;
@@ -106,28 +105,15 @@ color: white;
 font-size: 24px;
 font-weight: 600;
 padding: 2px 10px 0px 10px;
-width: 320px;
+width: 383px;
 height: 35px;
-margin: 30px 5px 5px 5px;
+margin: 10px 5px 5px 10px;
 transition: ease 0.2s all;
 cursor: pointer;
 &:hover {box-shadow:rgba(99, 99, 99, 0) 2px 2px 2px 0px};
 `;
-const SubLabelcenter = styled.div`
-display: flex;
-justify-content: center;
-font-size: 14px;
-color:   #1394d2;
-width: 100%;
-z-index: 999;
-transition: ease 0.2s all;
-`;
-const Eye = styled.img`
-top: 20%;
-left: 77%;
-position: absolute;
-width: 20%
-`;
+
+
 
 function bedankt() {
   return (
@@ -150,42 +136,28 @@ function bedankt() {
           <Label2>Gebruikersnaam</Label2>
           <Ondernmgsinput>
           </Ondernmgsinput>
-        </Ondernmgsno>        <Ondernmgsno>
-          <Label>Taalvookeur*</Label>
-          <Ondernmgsinput>
-          </Ondernmgsinput>
-          <Label2>Gebruikersnaam</Label2>
-          <Ondernmgsinput>
-          </Ondernmgsinput>
         </Ondernmgsno>
-
         <Ondernmgsno>
           <Label>Voornaam</Label>
           <Ondernmgsinput>
           </Ondernmgsinput>
-          <Label>Voornaam</Label>
+          <Label2>Naam</Label2>
+          <Ondernmgsinput>
+          </Ondernmgsinput>
+        </Ondernmgsno>
 
-        </Ondernmgsno>
-        <Ondernmgsno>
-          <Ondernmgsinput>
-          </Ondernmgsinput>
-        </Ondernmgsno>
-        <Ondernmgsno>
-          <Label>Naam</Label>
-          <Ondernmgsinput>
-          </Ondernmgsinput>
-        </Ondernmgsno>
         <Ondernmgsno>
           <Label>Geboortedatum</Label>
           <Ondernmgsinput>
           </Ondernmgsinput>
-          <Label>Telefoonnummer</Label>
+          <Label2>Telefoonnummer</Label2>
+          <Ondernmgsinput>
+          </Ondernmgsinput>
         </Ondernmgsno>
+ 
         <BlackBtn>
           GA VERDER
         </BlackBtn>
-
-
       </InputWrapper>
 
     </Container>
