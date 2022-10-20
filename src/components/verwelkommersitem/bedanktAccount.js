@@ -130,7 +130,7 @@ function bedankt() {
 
       <InputWrapper>
         <Ondernmgsno>
-          <Label>Taalvookeur*</Label>
+          <Label>Taalvoorkeur*</Label>
           <Ondernmgsinput>
           </Ondernmgsinput>
           <Label2>Gebruikersnaam</Label2>
