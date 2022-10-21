@@ -18,3 +18,26 @@ import './AppColors.css';
 export default function App() {
   return (
     <BrowserRouter>
+    
+      <Routes>
+        <Route>
+          <Route exact path='/' element={<Home />} />
+          <Route exact path="/search" element={<Search />} />
+          {/* <Route path="search/:query" element={welkom<Search />} />           */}
+          <Route exact path="/magazines" element={<Magazines/>} />
+          <Route exact path="/welkom" element={<Welkom/>} />
+          <Route exact path="/consument" element={<Consument/>} />
+          <Route exact path="/bedankt" element={<Bedankt/>} />
+          <Route exact path="/consumentmag" element={<Consumentmag/>} />
+          <Route exact path="/ondernemermag" element={<Ondernemermag/>} />
+          {/* <Route path="magazines/:query" element={<Magazines/>} /> */}
+          {/* <Route path="contact" element={<Contact />} />
+          <Route path="*" element={<NoPage />} /> */}
+        </Route>
+      </Routes>
+    </BrowserRouter>
+  );
+}
+
+const root = ReactDOM.createRoot(document.getElementById('root'));
+root.render(<App />);
