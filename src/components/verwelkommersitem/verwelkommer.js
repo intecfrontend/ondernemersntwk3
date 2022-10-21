@@ -51,7 +51,7 @@ justify-content: center;
 background:   white;
 /* border:#1394d2 solid 1px;  */
 border:black solid 1px; 
-border-radius: 3px;
+border-radius: 5px;
 font-size: 10px;
 font-weight: 600;
 /* color: #1394d2; */
@@ -68,7 +68,7 @@ display: flex;
 align-items: center;
 justify-content: center;
 background:   #1394d2;
-border-radius: 3px;
+border-radius: 5px;
 font-size: 10px;
 font-weight: 600;
 color: white;
@@ -95,7 +95,7 @@ cursor: pointer;
 const Ondernmgsinput = styled.div`
 display: flex;
 align-items: center;
-border-radius: 2px;
+border-radius: 5px;
 font-size: 24px;
 font-weight: 400;
 padding: 2px 10px 0px 10px;
@@ -136,7 +136,7 @@ const BlackBtn = styled.div`
 display: flex;
 align-items: center;
 justify-content: center;
-border-radius: 2px;
+border-radius: 5px;
 background: black;
 color: white;
 font-size: 24px;

@@ -53,7 +53,7 @@ cursor: pointer;
 const Ondernmgsinput = styled.div`
 display: flex;
 align-items: center;
-border-radius: 2px;
+border-radius: 5px;
 font-size: 24px;
 font-weight: 400;
 padding: 2px 10px 0px 10px;
@@ -68,7 +68,7 @@ cursor: pointer;
 const Ondernmgsselect = styled.select`
 display: flex;
 align-items: center;
-border-radius: 2px;
+border-radius: 5px;
 font-size: 24px;
 font-weight: 400;
 padding: 2px 10px 0px 10px;
@@ -115,7 +115,7 @@ const BlackBtn = styled.div`
 display: flex;
 align-items: center;
 justify-content: center;
-border-radius: 2px;
+border-radius: 5px;
 background: black;
 color: white;
 font-size: 24px;
@@ -149,10 +149,10 @@ function bedankt() {
           <Label>Taalvoorkeur*</Label>
           <Ondernmgsinput>
             <Ondernmgsselect>
-            <option value="NL">Nederlands</option>
-            <option value="FR">Français</option>
-            <option value="EN">English</option>
-            <option value="DE">Deutsch</option>
+              <option value="NL">Nederlands</option>
+              <option value="FR">Français</option>
+              <option value="EN">English</option>
+              <option value="DE">Deutsch</option>
             </Ondernmgsselect>
           </Ondernmgsinput>
 

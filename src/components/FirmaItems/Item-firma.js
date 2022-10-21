@@ -5,7 +5,7 @@ import '../../App.css';
 import styled from 'styled-components';
 
 const ItemBuitenBorder = styled.div`
-     border-radius: 7px;
+     border-radius: 5px;
      width: 300px;
       height: 320px;
       display: flex;
@@ -16,7 +16,7 @@ const ItemBuitenBorder = styled.div`
 `;
 const ItemBorder = styled.div`
      Border: rgba(99, 99, 99, 0.2) 1px solid;
-     border-radius: 7px;
+     border-radius: 5px;
      width: 250px;
       height: 270px;
       display: flex;

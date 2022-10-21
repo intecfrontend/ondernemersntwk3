@@ -8,7 +8,7 @@ import { Daata } from "./data";
 
 
 const ItemBuitenBorder = styled.div`
-     border-radius: 7px;
+     border-radius: 5px;
      width: 200px;
       height: 280px;
       display: flex;      position:relative;
@@ -22,7 +22,7 @@ const ItemBuitenBorder = styled.div`
 `;
 const ItemBorder = styled.div`
      Border: rgba(99, 99, 99, 0.2) 1px solid;
-     border-radius: 7px;  overflow: hidden; /* Hide scrollbars */
+     border-radius: 5px;  overflow: hidden; /* Hide scrollbars */
      width: 150px;
       height: 204px;
       display: flex;
@@ -49,7 +49,7 @@ height: 13%;
   top:11px;
   padding: 2px;
   left: 157px;
-  border-radius: 3px;
+  border-radius: 5px;
 z-index:990;
 background: white;
 `;
